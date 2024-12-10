@@ -5,8 +5,20 @@ variable "region" {
 }
 
 variable "environment" {
-  description = "Name of the environment"
+  description = "Environment name"
   type        = string
+}
+
+variable "app_name" {
+  description = "Application name"
+  type        = string
+  default     = "an-app"
+}
+
+variable "component_name" {
+  description = "Component name within the application/service"
+  type        = string
+  default     = "a-component"
 }
 
 variable "env_role_arn" {
