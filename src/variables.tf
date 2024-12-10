@@ -15,10 +15,10 @@ variable "app_name" {
   default     = "an-app"
 }
 
-variable "component_name" {
-  description = "Component name within the application/service"
+variable "stack_name" {
+  description = "Application stack name"
   type        = string
-  default     = "a-component"
+  default     = "a-stack"
 }
 
 variable "role_arn" {

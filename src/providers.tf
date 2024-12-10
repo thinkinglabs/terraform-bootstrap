@@ -9,7 +9,7 @@ provider "aws" {
   default_tags {    
     tags = {
       Application = var.app_name
-      Component   = var.component_name 
+      Component   = var.stack_name 
       Environment = var.environment
     }
   }

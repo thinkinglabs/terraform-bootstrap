@@ -2,6 +2,8 @@
 
 A bootstrap project to kickstart a Terraform component.
 
+This setup follows the Micro Stack pattern from [Infrastructure as Code, 2nd Edition, p62](https://www.oreilly.com/library/view/infrastructure-as-code/9781098114664/). Every single infrastructure component of an application/service maps to a single stack.
+
 ## Setup
 
 Install [Terraform](https://developer.hashicorp.com/terraform/install?product_intent=terraform).
