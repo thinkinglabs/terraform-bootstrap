@@ -3,7 +3,7 @@ provider "aws" {
   region = var.region
 
   assume_role {
-    role_arn = var.env_role_arn
+    role_arn = var.role_arn
   }
 
   default_tags {    

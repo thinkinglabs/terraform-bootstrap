@@ -1,1 +1,2 @@
 # production specific configurations to override src/variables.tf
+role_arn=<production_provisioner_role_arn>

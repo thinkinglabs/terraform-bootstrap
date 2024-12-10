@@ -1,1 +1,2 @@
 # development specific configurations to override src/variables.tf
+role_arn=<development_provisioner_role_arn>

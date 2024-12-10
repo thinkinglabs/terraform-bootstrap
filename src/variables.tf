@@ -21,7 +21,7 @@ variable "component_name" {
   default     = "a-component"
 }
 
-variable "env_role_arn" {
+variable "role_arn" {
   description = "The environment provisioner role ARN"
   type        = string
 }

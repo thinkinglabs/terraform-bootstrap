@@ -1,1 +1,2 @@
 # test specific configurations to override src/variables.tf
+role_arn=<test_provisioner_role_arn>
